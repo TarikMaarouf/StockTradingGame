@@ -1,12 +1,12 @@
 package entities;
 
-public class OwnedStock {
+public class StockPurchase {
     private final int id;
     private final int portfolioId;
     private final String stockSymbol;
     private int numbersOfShares;
 
-    public OwnedStock(int id, int portfolioId, String stockSymbol, int numbersOfShares) {
+    public StockPurchase(int id, int portfolioId, String stockSymbol, int numbersOfShares) {
         this.id = id;
         this.portfolioId = portfolioId;
         this.stockSymbol = stockSymbol;

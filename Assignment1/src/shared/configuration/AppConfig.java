@@ -40,4 +40,3 @@ public class AppConfig {
         return stockResetValue;
     }
 }
-//hejhfdsgsg
